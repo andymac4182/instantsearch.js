@@ -9,6 +9,7 @@ let algoliasearchHelper = require('algoliasearch-helper');
 
 instantsearch.widgets = {
   clearAll: require('../widgets/clear-all/clear-all.js'),
+  currentRefinedValues: require('../widgets/current-refined-values/current-refined-values.js'),
   hierarchicalMenu: require('../widgets/hierarchical-menu/hierarchical-menu.js'),
   hits: require('../widgets/hits/hits'),
   hitsPerPageSelector: require('../widgets/hits-per-page-selector/hits-per-page-selector'),
